@@ -1,3 +1,4 @@
+[English](README.md) | 中文
 
 # Crawell
 
@@ -21,4 +22,5 @@
 ## 反馈
 
  - 提出 [ISSUE](https://github.com/kamjin3086/Crawell/issues/new) 或者通过插件内入口进行反馈
- - 通过 [Discord](https://discord.gg/stDBJE8tva) 反馈问题或者提出建议 
+ - 通过 [Discord](https://discord.gg/stDBJE8tva) 反馈问题或者提出建议
+ - 在浏览器插件的设置中提交反馈
