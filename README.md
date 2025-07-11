@@ -20,3 +20,4 @@ Available on the Chrome Web Store [Crawell](Crawell). Add to Chrome/Firefox/Edge
 ## Feedback
 - Submit an [ISSUE](https://github.com/kamjin3086/Crawell/issues/new) or provide feedback through the in-plugin interface
 - Share issues or suggestions via [Discord](https://discord.gg/stDBJE8tva)
+- Submit feedback in the settings of the browser plugin
