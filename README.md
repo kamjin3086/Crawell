@@ -1,3 +1,5 @@
+English | [中文](README_ZH.md)
+
 # Crawell
 
 > Crawell helps you extract images and text from web pages with one click, offering an intuitive sidebar interface, supporting batch downloads, size filtering, and ZIP packaging.
