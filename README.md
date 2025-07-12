@@ -21,7 +21,7 @@
 
 | Sidebar UI | Preview | Download |
 | :--: | :--: | :--: |
-| ![sidebar](docs/assets/sidebar.png) | ![preview](docs/assets/image.png) | ![download](docs/assets/download.png) |
+| ![sidebar](docs/assets/s1_en_main.png) | ![preview](docs/assets/s2_en_image.png) | ![download](docs/assets/s3_en_markdown.png) |
 
 ---
 
