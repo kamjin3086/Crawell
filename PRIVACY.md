@@ -35,4 +35,6 @@ We process data only for legitimate purposes:
 If you have any questions, comments or complaints about this Policy, feel free to [open an Issue](https://github.com/kamjin3086/Crawell/issues/new) or reach us on [Discord](https://discord.gg/stDBJE8tva). We will respond as soon as possible.
 
 
+---
+
 © 2024 Crawell. All rights reserved.
