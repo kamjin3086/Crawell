@@ -1,26 +1,57 @@
-[English](README.md) | 中文
+[English](README.en.md) | 中文
 
-# Crawell
+# Crawell – 网页图片 / 正文一键提取工具
 
-> Crawell 帮你把网页中的图片、正文一键提取，侧边栏操作直观，支持批量下载、尺寸过滤、ZIP 打包。
+> **Crawell** 帮你把网页中的图片与正文快速提取、批量下载，并支持 Markdown 转换、ZIP 打包等实用功能。所有处理均在本地浏览器完成，数据绝不上传服务器，隐私安全。
 
-## 功能特性
-- 一键提取网页图片：自动分类 ICON / THUMBNAIL / CONTENT / LARGE
-- Markdown 转换：保留标题层级与格式
-- 智能过滤：尺寸、体积、格式多维筛选
-- 批量下载：ZIP 打包或单图下载，自动重命名
-- 本地运行，隐私安全
+---
 
-## 使用步骤
-已上架谷歌插件商店 [Crawell](Crawell)，添加到谷歌/火狐/Edge浏览器
+## ✨ 核心特性
+| 功能 | 说明 |
+| --- | --- |
+| **图片一键提取** | 自动扫描并分类 ICON / THUMBNAIL / CONTENT / LARGE |
+| **Markdown 转换** | 智能识别标题层级、段落、列表，保留排版样式 |
+| **尺寸 & 格式过滤** | 依据分辨率 / 体积 / 格式多维筛选目标资源 |
+| **批量下载** | 支持 ZIP 打包或单图下载，文件自动重命名 |
+| **100% 本地运行** | 无需登录，所有操作在浏览器端完成，保护隐私 |
 
-1. 打开含素材的网页
-2. 点击浏览器工具栏 Crawell 图标，侧边栏自动展开
-3. 选择「提取图片」或「转换 Markdown」
-4. 预览 → 过滤 → 勾选 → 下载
+---
 
-## 反馈
+## 📸 截图预览
+> _将来在 Web Store 上传的截图都可以引用同一套文件地址，这里先放占位图。_
 
- - 提出 [ISSUE](https://github.com/kamjin3086/Crawell/issues/new) 或者通过插件内入口进行反馈
- - 通过 [Discord](https://discord.gg/stDBJE8tva) 反馈问题或者提出建议
- - 在浏览器插件的设置中提交反馈
+| 侧边栏界面 | 预览 | 下载 |
+| :--: | :--: | :--: |
+| ![screenshot-sidebar](docs/assets/sidebar.png) | ![screenshot-filter](docs/assets/image.png) | ![screenshot-download](docs/assets/download.png) |
+
+---
+
+## 🚀 安装
+
+即将上线，敬请期待
+
+---
+
+## 📝 使用步骤
+1. 在包含素材的网页点击工具栏 **Crawell** 图标，侧边栏自动展开  
+2. 选择「提取图片」或「转换 Markdown」  
+3. **预览 → 过滤 → 勾选** 需要的资源  
+4. 点击「下载」即可（支持 ZIP 或单文件）
+
+---
+
+## 🔒 隐私与数据安全
+* **零服务器上传**：所有提取与转换操作在用户本地浏览器完成  
+* **不收集个人数据**：扩展不会读取、存储或传输任何可识别个人身份的信息  
+* **无需账户**：全部功能即装即用，亦可自行配置离线 Ollama 模型  
+如需了解详细隐私政策，请参阅 [`PRIVACY.md`](PRIVACY.md)。
+
+---
+
+## 💬 反馈 / 支持
+| 渠道 | 地址 |
+| --- | --- |
+| GitHub Issues | <https://github.com/kamjin3086/Crawell/issues> |
+| Discord 社区 | <https://discord.gg/stDBJE8tva> |
+| 扩展内反馈入口 | 安装后在 **设置 → 反馈** 提交 |
+
