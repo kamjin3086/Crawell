@@ -21,7 +21,7 @@
 
 | 侧边栏界面 | 预览 | 下载 |
 | :--: | :--: | :--: |
-| ![screenshot-sidebar](docs/assets/sidebar.png) | ![screenshot-filter](docs/assets/image.png) | ![screenshot-download](docs/assets/download.png) |
+| ![sidebar](docs/assets/s1_en_main.png) | ![preview](docs/assets/s2_en_image.png) | ![download](docs/assets/s3_en_markdown.png) |
 
 ---
 
