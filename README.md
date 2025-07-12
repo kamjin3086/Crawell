@@ -1,25 +1,57 @@
-English | [中文](README_ZH.md)
+[中文](README_ZH.md) | English
 
-# Crawell
+# Crawell – One-Click Web Image & Content Extractor
 
-> Crawell helps you extract images and text from web pages with one click, offering an intuitive sidebar interface, supporting batch downloads, size filtering, and ZIP packaging.
+> **Crawell** lets you instantly pull every image and article text from any webpage, batch-download them, convert to Markdown, and pack everything into a ZIP file. All processing is done locally in your browser—nothing is uploaded, your privacy stays private.
 
-## Features
-- **One-Click Image Extraction**: Automatically categorizes images into ICON / THUMBNAIL / CONTENT / LARGE
-- **Markdown Conversion**: Preserves heading levels and formatting
-- **Smart Filtering**: Multi-dimensional filtering by size, file size, and format
-- **Batch Download**: ZIP packaging or single image downloads with automatic renaming
-- **Local Operation**: Ensures privacy and security
+---
 
-## Usage Steps
-Available on the Chrome Web Store [Crawell](Crawell). Add to Chrome/Firefox/Edge browsers.
+## ✨ Key Features
+| Feature | Description |
+| --- | --- |
+| **Instant Image Extraction** | Automatically scans the page and groups results into ICON / THUMBNAIL / CONTENT / LARGE |
+| **Markdown Conversion** | Detects heading levels, paragraphs, lists & keeps original layout |
+| **Size & Format Filters** | Refine results by resolution, file size, or format |
+| **Batch Download** | Download as a single ZIP or individual files, auto-renamed |
+| **100 % Local Processing** | No login required, everything runs inside your browser |
 
-1. Open a webpage containing the desired content
-2. Click the Crawell icon in the browser toolbar to open the sidebar
-3. Select "Extract Images" or "Convert to Markdown"
-4. Preview → Filter → Select → Download
+---
 
-## Feedback
-- Submit an [ISSUE](https://github.com/kamjin3086/Crawell/issues/new) or provide feedback through the in-plugin interface
-- Share issues or suggestions via [Discord](https://discord.gg/stDBJE8tva)
-- Submit feedback in the settings of the browser plugin
+## 📸 Screenshot Preview  
+
+| Sidebar UI | Preview | Download |
+| :--: | :--: | :--: |
+| ![sidebar](docs/assets/sidebar.png) | ![preview](docs/assets/image.png) | ![download](docs/assets/download.png) |
+
+---
+
+## 🚀 Installation  
+Coming soon—stay tuned!
+
+---
+
+## 📝 How to Use
+1. Open any webpage that contains images or text you want to grab.  
+2. Click the **Crawell** icon in your browser toolbar—the sidebar opens automatically.  
+3. Choose “Extract Images” or “Convert to Markdown”.  
+4. **Preview → Filter → Select** the items you need.  
+5. Click **Download** (ZIP or single files).
+
+---
+
+## 🔒 Privacy & Data Security
+* **Zero server uploads** – all extraction and conversion is done locally.  
+* **No personal data collection** – the extension never reads, stores, or transmits personally identifiable information.  
+* **Account-free** – everything works out-of-the-box; you can optionally add an offline Ollama model.  
+
+For more details, see [`PRIVACY.md`](PRIVACY.md).
+
+---
+
+## 💬 Feedback / Support
+| Channel | Link |
+| --- | --- |
+| GitHub Issues | <https://github.com/kamjin3086/Crawell/issues> |
+| Discord Community | <https://discord.gg/stDBJE8tva> |
+| In-app Feedback | **Settings → Feedback** inside the extension |
+
