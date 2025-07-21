@@ -26,7 +26,11 @@
 ---
 
 ## 🚀 Installation  
-Coming soon—stay tuned!
+| Channel | Link |
+| --- | --- |
+| Chrome | <https://chromewebstore.google.com/detail/crawell/cmfcognoilmabnclomeehljmknallaaa> |
+| Edge | <https://microsoftedge.microsoft.com/addons/detail/crawell/kakkpcohjjhikaedlghnnfinhpgkiihh> |
+| Firefox | <https://addons.mozilla.org/en-US/firefox/addon/crawell> |
 
 ---
 
