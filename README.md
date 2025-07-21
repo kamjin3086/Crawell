@@ -26,7 +26,8 @@
 ---
 
 ## 🚀 Installation  
-| Channel | Link |
+
+| Browser | Link |
 | --- | --- |
 | Chrome | <https://chromewebstore.google.com/detail/crawell/cmfcognoilmabnclomeehljmknallaaa> |
 | Edge | <https://microsoftedge.microsoft.com/addons/detail/crawell/kakkpcohjjhikaedlghnnfinhpgkiihh> |
