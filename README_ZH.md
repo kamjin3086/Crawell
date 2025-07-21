@@ -27,7 +27,12 @@
 
 ## 🚀 安装
 
-即将上线，敬请期待
+| 浏览器 | 链接 |
+| --- | --- |
+| Chrome | <https://chromewebstore.google.com/detail/crawell/cmfcognoilmabnclomeehljmknallaaa> |
+| Edge | <https://microsoftedge.microsoft.com/addons/detail/crawell/kakkpcohjjhikaedlghnnfinhpgkiihh> |
+| Firefox | <https://addons.mozilla.org/en-US/firefox/addon/crawell> |
+
 
 ---
 
