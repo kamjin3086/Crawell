@@ -1,0 +1,313 @@
+common:
+  extracting: 正在提取...
+  confirm: 确定
+
+imageExtractor:
+  multiSelect:
+    addDimension: "+ 自定义尺寸"
+    addSizeRange: "+ 自定义大小区间"
+    placeholderExample: "如 52x64"
+    minKB: "最小(KB)"
+    maxKB: "最大(KB)"
+    confirm: 确定
+  downloadDialog:
+    title: "下载设置 ($1 张图片)"
+    methodLabel: 下载方式
+    zipOption: 打包下载
+    singleOption: 单个下载
+    packageNameLabel: 压缩包名称
+    packageHint: "将自动添加 .zip 后缀"
+    formatLabel: 格式转换
+    compressLabel: 压缩质量
+    resizeLabel: 调整尺寸
+    widthLabel: 宽度
+    heightLabel: 高度
+    keepRatioLabel: 保持宽高比
+    renameLabel: 重命名
+    patternLabel: 命名规则
+    patternHint: "支持变量: {index} - 序号, {date} - 日期, {original} - 原文件名"
+    startNumberLabel: 起始编号
+    filenamePatternLabel: 文件名规则
+    confirmButton: 下载
+    formatHelp: "支持格式: JPG、PNG、WebP\n其他格式(GIF、SVG等)保持原样"
+    compressHelp: "支持格式: JPG、WebP\nPNG 不支持质量压缩\n其他格式保持原样"
+    resizeHelp: "支持格式: JPG、PNG、WebP\n动态图(GIF)和矢量图(SVG)不支持调整尺寸"
+    cancelButton: 取消
+  view:
+    extract: 提取
+    reExtract: 重新提取
+    extracting: 正在提取
+    extractTooltip: 提取页面图片
+    autoTooltip: 自动提取
+    accumulateTooltip: 累积模式
+    filterTooltip: 筛选
+    sortTooltip: 切换分类排序
+    guideTitle: 使用说明
+    guideStep1: "点击\"提取\"按钮从当前页面提取图片"
+    guideStep2: "开启\"自动\"后将在页面变化时自动提取新图片"
+    guideStep3: "使用筛选功能可按尺寸、格式等条件过滤图片"
+    guideStep4: "点击图片可选中/取消选中，支持批量下载"
+    toastSuccess: 已下载图片
+    toastError: 下载图片时出错
+    success: 成功
+    error: 错误
+    downloadBtn: "下载($1)"
+    settings: 设置
+    selectAll: 全选
+    deselectAll: 取消全选
+    invertSelect: 反选
+    selectedPrefix: "已选择："
+    totalSizePrefix: "总大小："
+    extractingImages: 正在提取图片...
+    emptyHint: "点击上方\"提取\"按钮开始提取图片"
+    downloadImageTitle: 下载图片
+    patternPlaceholder: "例如: image-{index}"
+    downloadTooltip: 下载
+    emptyTitle: "轻松抓取页面上的所有图片"
+    emptySubtitle: "点击下方按钮，即可开始扫描并批量下载当前页面的图片资源。"
+    startExtract: "开始抓取"
+
+  category:
+    icon: 图标
+    thumbnail: 缩略图
+    content: 内容图
+    large: 大图
+  categoryDesc:
+    icon: 适用于网站图标、按钮等小型元素
+    thumbnail: 适用于预览图、头像、商品缩略图等
+    content: 适用于文章插图、产品展示图片等
+    large: 适用于背景图、横幅、高清大图等
+
+  filterDialog:
+    title: 筛选图片
+    reset: 重置
+    formatLabel: 图片格式
+    sizeLabel: 图片尺寸
+    fileSizeLabel: 文件大小
+    addCustomSize: "+ 自定义尺寸区间"
+    addCustomFileSize: "+ 自定义大小区间"
+    widthRangeLabel: 宽度区间 (px)
+    heightRangeLabel: 高度区间 (px)
+    minPlaceholder: 最小
+    maxPlaceholder: 最大
+    applyRange: 应用区间
+    unitPlaceholder: 单位
+  error:
+    title: 提取失败
+    noTab: 无法获取当前标签页信息
+    internalPage: 当前页面属于浏览器内置/扩展页面，无法提取内容。
+    cannotExecute: 无法在此页面执行提取，请切换到普通网页后重试
+    generic: 提取失败，建议在普通网页内容页执行提取
+    unknown: 未知错误 
+  info:
+    pageLoading: 页面加载中
+    waitPageLoad: 请等待页面加载完成后再进行提取
+  extract:
+    success: 提取成功
+    successDescription: "已提取 $1 张图片"
+  download:
+    success: 下载完成
+    successDescription: "已下载 $1 张图片"
+
+general:
+  version: 版本
+  privacyPolicy: 隐私政策
+  termsOfService: 使用条款
+  feedback: 提交反馈
+  contactEmail: 联系邮箱
+  language: 语言
+  languageAuto: 跟随浏览器
+  languageEnglish: 英文
+  languageChinese: 中文
+
+settings:
+  cleanMode:
+    title: 清理模式
+    desc: 配置页面清理和内容提取的选项
+    enableTitle: 启用清理模式
+    enableDesc: 移除页面中的干扰元素，只保留主要内容
+    removeAds: 移除广告
+    removeAdsDesc: 移除页面中的广告内容
+    removeComments: 移除评论
+    removeCommentsDesc: 移除页面中的评论区域
+    removeNav: 移除导航
+    removeNavDesc: 移除页面顶部的导航栏
+    removeFooter: 移除页脚
+    removeFooterDesc: 移除页面底部的页脚区域
+    removeSocial: 移除社交分享
+    removeSocialDesc: 移除社交媒体分享按钮
+  data:
+    title: 数据管理
+    desc: 清理本地缓存与设置
+    clearAll: 清除所有数据
+    confirm: 确定要清除所有数据吗？
+  about:
+    title: 关于与支持
+    desc: 插件信息与反馈渠道 
+  imageFilter:
+    title: 图片过滤
+    desc: 过滤不可见或极小尺寸的图片（≤5×5 px），以减少无效占位符。
+    enableTitle: 过滤隐藏/极小图片
+
+terms:
+  pageTitle: "Crawell – 使用条款"
+  title: 使用条款
+  updated: 最近更新于 2025-06-01
+  intro: 请您在使用本扩展前仔细阅读并理解以下条款。一旦您安装、访问或使用本扩展，即视为已同意受本条款约束。
+  section1:
+    title: 许可与范围
+    text: 本扩展在 MIT 开源许可证下发布，仅授权您出于个人或内部业务目的安装与使用。未经书面许可，您不得进行反向工程、再分发或用于任何非法活动。
+  section2:
+    title: 用户义务
+    text: 您应保证在使用过程中遵守适用法律法规，不得利用本扩展存储、传播违法信息或侵犯他人权益；如因您的行为导致任何第三方索赔，您应自行承担全部责任。
+  section3:
+    title: 知识产权
+    text: 本扩展及其所有源码、图标与商标均归开发者所有。未经授权，任何个人或组织不得复制、修改、发布或建立镜像。
+  section4:
+    title: 免责声明
+    text: 本扩展按"现状"提供，不保证毫无错误或持续可用。对因使用或无法使用本扩展而产生的任何直接、间接损失，我们不承担任何责任。
+  section5:
+    title: 责任限制
+    text: 在法律允许的最大范围内，我们对任何间接、附带、特殊或惩罚性的损害概不负责；我们的累计赔偿责任不超过您为本服务实际支付的费用（如有）。
+  section6:
+    title: 条款变更与终止
+    text:
+      prefix: 我们保留随时更新本条款的权利，变更后的内容将通过版本更新或公告形式提示。若您对修改有异议，请停止使用并
+      suffix: ；继续使用视为接受新的条款。
+
+privacy:
+  pageTitle: "Crawell – 隐私政策"
+  title: 隐私政策
+  updated: 最近更新于 2025-06-01
+  intro: 我们非常重视您的隐私与数据安全。本隐私政策旨在说明本扩展（"Crawell" 或 "我们"）如何收集、使用、存储与删除您的信息，以及您对此拥有的权利。
+  section1:
+    title: 收集的数据类型
+    text: |
+      本扩展仅在下述场景收集必要的数据：
+        • 账户信息：当您自愿注册或登录时，我们会收集您的邮箱地址、昵称以及授权令牌。
+        • 使用数据：包括功能使用次数、错误日志（不含任何可识别个人身份的数据），用于改进产品体验与稳定性。
+        • 页面内容（可选）：在您主动点击"提取"按钮或启用自动提取功能时，扩展会在本地浏览器解析当前网页内容或图片。**这些内容处理均在本地完成，不会上传到任何服务器**，除非您明确选择分享或同步。
+  section2:
+    title: 数据使用目的
+    text: |
+      我们仅出于以下合法、正当且必要的目的使用收集的数据：
+        1. 向您提供核心功能（内容提取、翻译、AI 聊天等）。
+        2. 保障服务的安全与稳定，排查故障。
+        3. 改进产品性能、布局与交互体验。
+        4. 向您发送重要更新通知（仅限已同意接收的用户）。
+      我们**不会**将您的个人信息出售、出租或以其他方式披露给任何第三方，除非获得您的明确同意或法律法规另有规定。
+  section3:
+    title: 数据存储与安全
+    text: |
+      • 本扩展使用浏览器的 `storage.local` 空间以加密形式存储必要配置与缓存，并遵循最小权限原则。
+      • 传输层全部采用 HTTPS/TLS 加密。
+      • 我们采用日志匿名化、最小化保留策略，并定期审计访问权限。
+  section4:
+    title: 数据保留与删除机制
+    text: |
+      • 本地数据：您可在【设置 → 数据管理 → 清除所有数据】中一键删除扩展在浏览器中的全部缓存与配置。
+      • 账户信息：如需注销账户或删除服务器端存储（例如积分记录），请通过联系我们的邮箱提交申请，我们将在 7 个工作日内完成处理。
+  section5:
+    title: 您的权利与联系我们
+    text:
+      prefix: 如果您对隐私政策有任何疑问、意见或投诉，欢迎
+      suffix: 。我们将在收到后尽快予以回复。
+
+help:
+  pageTitle: "Crawell – 使用帮助"
+  title: Crawell 使用指南
+  tagline: 全能网页素材采集与知识整理，一步到位
+  faqTitle: 常见问题 FAQ
+  faq:
+    q1:
+      q: 提取按钮为什么点了没反应？
+      a: 部分站点采用了懒加载或跨域资源，如果图片在滚动后才出现，请先向下滚动页面再点击提取。若仍旧失败，可在设置中开启「自动提取」试试。
+    q2:
+      q: 下载 ZIP 失败 / 文件损坏？
+      a: 请确认浏览器未安装拦截下载的插件，或尝试更换为单图下载模式。大型图片批量压缩时也可能触发浏览器内存上限。
+    q3:
+      q: Markdown 图片链接无法访问？
+      a: 若导出的 Markdown 需要离线阅读，请勾选「打包下载」选项，插件会自动将图片下载到本地并替换为相对路径。
+  quickStartTitle: 快速开始
+  quick:
+    image:
+      title: 采集网页图片
+      s1: 打开目标网页
+      s2: 点击提取图片
+      s3: 选择所需图片
+      s4: 配置并批量下载
+    markdown:
+      title: 整理网页为 Markdown
+      s1: 访问文章页
+      s2: 点击整理内容
+      s3: 预览并编辑
+      s4: 下载或复制文档
+  coreTitle: 核心功能详解
+  downloadTitle: 下载配置详解
+  feedbackTitle: 反馈与联系
+  feedbackDesc: "若在使用过程中遇到问题或有任何建议，欢迎通过以下方式与我们联系："
+  coreItems:
+    img: "图片采集：自动提取网页中的所有图片，并根据尺寸智能分类为图标、缩略图、内容图和高清图；支持格式筛选、批量下载与转换。"
+    markdown: "网页转 Markdown：将文章核心内容转换为干净的 Markdown；可在 Notion、Obsidian 等工具中二次编辑。"
+    autoStack: "自动提取 / 堆叠模式：自动抓取新页面图片；堆叠模式可持续收集多页面素材。"
+  downloadItems:
+    method: "图片下载方式：ZIP 打包或单图下载。"
+    format: "图片格式转换：支持 JPG / PNG / WebP 互转。"
+    quality: "压缩质量：可自定义 JPG / WebP 质量。"
+    markdown: "Markdown 下载：支持打包图片并替换相对路径。"
+    naming: "文件命名：支持 <code>{index}</code>、<code>{date}</code>、<code>{name}</code> 占位符。"
+  footer:
+    slogan: Crawell – 让网页内容提取更简单
+  contact:
+    issue: 提交 Issue
+    discord: 加入 Discord
+    form: 反馈表单
+
+markdownEditor:
+  extract: 提取
+  reExtract: 重新提取
+  extracting: 提取中...
+  autoExtract: 自动提取
+  search: 搜索
+  copy: 复制到剪贴板
+  searchPlaceholder: 搜索文档内容...
+  emptyTitle: 尚未提取内容
+  emptySubtitle: 点击「提取」按钮开始扫描当前页面。
+  errNoTab: 无法获取当前标签页信息
+  errInternalPage: 当前页面属于浏览器内置/扩展页面，无法提取内容。
+  errNoConnect: 无法与页面通信，可能页面未完全加载或不受支持。
+  errExtract: 提取失败
+  errZip: 创建 ZIP 文件失败
+  errOperation: "操作失败: $msg"
+  errCopy: 复制失败
+  unknown: 未知错误
+  imagePlaceholder: 图片
+editorFooter:
+  edit: 编辑
+  preview: 预览
+  toggleTooltip: 切换编辑/预览模式
+  wordCountTooltip: 文档字数统计
+  imageCountTooltip: 文档图片数量
+  download: 打包下载
+  downloadTooltip: 下载 Markdown 文件和图片的 ZIP 压缩包 
+
+welcome:
+  pageTitle: "Crawell – 欢迎使用"
+  title: 欢迎使用 Crawell！
+  subtitle: Crawell 帮你一键提取网页图片、转换 Markdown，并提供强大的批量下载及格式转换功能。
+  startBtn: 立即开始
+  guideTitle: 快速指引
+  closeBtn: 已了解，关闭欢迎页
+  steps:
+    s1: 打开想采集素材的网页。
+    s2: 点击浏览器工具栏中的 Crawell 插件图标。
+    s3: 在侧边栏点"提取图片"或"整理 Markdown"。
+    s4: 选择素材后批量下载或复制。 
+
+glassPluginCard:
+  tools:
+    image: 抓取图片
+    markdown: 整理 Markdown
+  help: 帮助
+  settings: 设置 
+

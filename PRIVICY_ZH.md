@@ -1,6 +1,6 @@
 # Crawell – 隐私政策
 
-_Last updated: 2024-07-12_
+_Last updated: 2025-07-12_
 
 ### 简介
 我们非常重视您的隐私与数据安全。本隐私政策旨在说明 **Crawell**（“我们”）如何收集、使用、存储与删除您的信息，以及您对此拥有的权利。
@@ -34,4 +34,4 @@ _Last updated: 2024-07-12_
 
 ---
 
-© 2024 Crawell. All rights reserved.
+© 2025 Crawell. All rights reserved.

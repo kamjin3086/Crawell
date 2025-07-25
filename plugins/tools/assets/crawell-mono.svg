@@ -1,0 +1,5 @@
+<svg id="logo-mono" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                         <rect x="35" y="35" width="50" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="6"></rect>
+                         <rect x="15" y="15" width="50" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="6"></rect>
+                         <path d="M 65 50 L 50 65" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path>
+                    </svg>

@@ -1,0 +1,454 @@
+/* Glassmorphism theme styles extracted from crawell_design.html */
+
+/* Base glassmorphism card */
+.theme-glassmorphism {
+  color: var(--text-primary);
+  border-radius: 20px;
+  background: var(--bg-glass);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+}
+.theme-glassmorphism .header,
+.theme-glassmorphism .toolbar {
+  border-bottom: 1px solid var(--border-glass);
+}
+.theme-glassmorphism .btn-primary {
+  border-radius: 12px;
+  color: var(--accent-text);
+  background: var(--accent-primary);
+  font-weight: 600;
+}
+.theme-glassmorphism .btn-primary:hover {
+  background: var(--accent-primary-hover);
+}
+.theme-glassmorphism .btn-icon {
+  border-radius: 10px;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.2s, color 0.2s;
+}
+.theme-glassmorphism .btn-icon:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--text-primary);
+}
+.theme-glassmorphism .btn-icon.active {
+  color: var(--accent-primary);
+  background: var(--accent-bg-secondary);
+}
+.theme-glassmorphism .content-placeholder {
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.dark .theme-glassmorphism .content-placeholder {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Light palette */
+.theme-glassmorphism-light {
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+  --accent-primary: #007aff;
+  --accent-primary-hover: #2392ff;
+  --accent-text: #fff;
+  --accent-bg-secondary: rgba(0, 122, 255, 0.1);
+  --bg-glass: rgba(255, 255, 255, 0.95);
+  --border-glass: rgba(255, 255, 255, 0.6);
+}
+
+/* Dark palette */
+.theme-glassmorphism-dark {
+  --text-primary: #ffffff;
+  --text-secondary: #a0aec0;
+  --accent-primary: #0ea5e9;
+  --accent-primary-hover: #38bdf8;
+  --accent-text: #ffffff;
+  --accent-bg-secondary: rgba(14, 165, 233, 0.15);
+  --bg-glass: rgba(29, 39, 58, 0.75);
+  --border-glass: rgba(255, 255, 255, 0.15);
+}
+
+/* Background spots */
+.bg-blur-spot {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.5;
+  pointer-events: none;
+}
+.spot-1 {
+  background: #818cf8;
+  top: -250px;
+  left: -250px;
+}
+.spot-2 {
+  background: #f472b6;
+  bottom: -250px;
+  right: -250px;
+}
+.dark .spot-1 {
+  background: #3b82f6;
+  opacity: 0.3;
+}
+.dark .spot-2 {
+  background: #7c3aed;
+  opacity: 0.3;
+}
+
+/* Image list styles */
+.image-list-container {
+  scrollbar-width: thin;
+  scrollbar-color: var(--text-secondary) transparent;
+}
+.image-list-container::-webkit-scrollbar {
+  width: 6px;
+}
+.image-list-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+.image-list-container::-webkit-scrollbar-thumb {
+  background-color: var(--text-secondary);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.image-card {
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+.image-card.selected {
+  border-color: var(--accent-primary);
+}
+.image-card .info-overlay {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.image-card:hover .info-overlay {
+  opacity: 1;
+}
+.image-card .selection-overlay {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.2s ease-in-out;
+}
+.image-card.selected .selection-overlay {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Bottom toolbar */
+.bottom-toolbar {
+  background: var(--bg-glass-footer, rgba(248,249,251,0.85));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid var(--border-glass);
+}
+.dark .bottom-toolbar {
+  background: var(--bg-glass-footer, rgba(29,39,58,0.9));
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.bottom-toolbar .action-btn {
+  color: var(--text-secondary);
+}
+.dark .bottom-toolbar .action-btn {
+  color: var(--text-secondary); /* already set to slate-400 via var */
+}
+.dark .bottom-toolbar .action-btn:hover {
+  color: var(--text-primary);
+}
+.bottom-toolbar .action-btn:hover {
+  color: var(--text-primary);
+}
+.bottom-toolbar .btn-download {
+  background: var(--accent-primary);
+  color: var(--accent-text);
+  box-shadow: 0 4px 15px -5px var(--accent-primary);
+}
+.dark .bottom-toolbar .btn-download {
+  /* slightly dim accent in dark to reduce glare */
+  background: var(--accent-primary);
+  box-shadow: 0 4px 12px -6px var(--accent-primary);
+}
+.bottom-toolbar .btn-download:hover {
+  background: var(--accent-primary-hover);
+}
+.dark .bottom-toolbar .btn-download:hover {
+  background: var(--accent-primary-hover);
+}
+
+/* Glass placeholder card */
+.placeholder-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-glass);
+  border-radius: 1rem; /* 16px */
+  text-align: center;
+  color: var(--text-secondary);
+  gap: 0.5rem;
+  padding: 2rem 1.5rem;
+  flex-grow: 1;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.placeholder-box img, .placeholder-box svg {
+  width: 5rem; /* 20 */
+  height: 5rem;
+  opacity: 0.9;
+  margin: 0 auto;
+}
+
+.placeholder-box .title {
+  font-size: 1rem; /* base */
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.placeholder-box .subtitle {
+  font-size: 0.875rem; /* sm */
+  color: var(--text-secondary);
+}
+
+/* Legacy content overrides */
+.legacy-content .bg-slate-100 {
+  background: transparent !important;
+}
+.legacy-content .rounded-lg {
+  border-radius: 0 !important;
+}
+.legacy-content .toolbar {
+  display: none !important;
+}
+.legacy-content .border-t {
+  display: none !important;
+}
+
+/* Hide old top bar inside legacy content */
+.legacy-content .select-none {
+  display: none !important;
+}
+
+/* Re-enable category checkbox label in legacy content */
+.legacy-content label.select-none {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Glass Dialog */
+.glass-dialog {
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+
+/* Chip styles */
+.chip {
+  background: rgba(226, 232, 240, 0.9); /* slate-200 90% */
+  color: #475569; /* slate-600 */
+  font-size: 11px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  line-height: 1.2;
+  transition: background 0.2s, color 0.2s;
+}
+.chip:hover {
+  background: rgba(203, 213, 225, 1); /* slate-300 */
+  color: #1e293b; /* slate-800 */
+}
+.dark .chip {
+  background: rgba(30, 41, 59, 0.6); /* slate-800 60% */
+  color: #e2e8f0; /* slate-200 */
+}
+.dark .chip:hover {
+  background: rgba(51, 65, 85, 0.9); /* slate-700 */
+  color: #ffffff;
+}
+.chip-active {
+  background: var(--accent-primary);
+  color: var(--accent-text);
+  transform: scale(1.02);
+}
+.chip-active:hover {
+  background: var(--accent-primary-hover);
+  color: var(--accent-text);
+}
+.dark .chip-active {
+  background: var(--accent-primary);
+  color: var(--accent-text);
+}
+.dark .chip-active:hover {
+  background: var(--accent-primary-hover);
+  color: var(--accent-text);
+}
+
+/* ---------- Global Scrollbar Style ---------- */
+/* Remove arrow buttons, transparent track, thin elegant thumb */
+html, body {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.3) transparent;
+}
+
+/* WebKit */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.25);
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.3);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255,255,255,0.45);
+}
+
+/* Hide default radix dialog close in glass dialog */
+.glass-dialog>button.absolute.right-2.top-2 {
+  display: none !important;
+}
+
+/* Setting group wrapper */
+.setting-group {
+  border: 1px solid var(--border-glass);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Inner stroke for cards */
+.glass-inner {
+  position: relative;
+}
+.glass-inner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.glass-setting-card {
+  /* 亮色：与顶部卡片一致，几乎纯白但保留轻微透感 */
+  background: rgba(255, 255, 255, 0.95); /* 95% */
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(0,0,0,0.15) transparent;
+}
+.dark .glass-setting-card {
+  /* 深色下使用暗蓝底 + 更高不透明度 90%，并保持磨砂 */
+  background: rgba(24, 32, 45, 0.9); /* 更深色 */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  scrollbar-color: rgba(255,255,255,0.3) transparent;
+}
+.glass-setting-card::-webkit-scrollbar {
+  width: 6px;
+}
+.glass-setting-card::-webkit-scrollbar-track {
+  background: transparent;
+}
+.glass-setting-card::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.glass-setting-card::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0,0,0,0.25);
+}
+.dark .glass-setting-card::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.3);
+}
+.dark .glass-setting-card::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255,255,255,0.45);
+}
+
+/* Settings panel sections */
+.settings-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.settings-section + .settings-section {
+  margin-top: 1.25rem;
+  border-top: 1px solid var(--border-glass);
+}
+.settings-section h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.settings-section p.desc {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.settings-wrapper {
+  background: rgba(31,41,55,0.55);
+}
+.settings-wrapper h3 {
+  color: var(--text-primary);
+}
+
+/* 优化设置面板滚动条 */
+.settings-scroll {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(0,0,0,0.15) transparent;
+}
+.settings-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.settings-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.settings-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 3px;
+}
+.settings-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0,0,0,0.25);
+}
+
+/* ---------------- Auto loading indicator on Sparkles button ---------------- */
+.auto-loading::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 6px;
+  height: 6px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  animation: autoPulse 1.2s cubic-bezier(.4,0,.6,1) infinite;
+}
+@keyframes autoPulse {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1); }
+} 

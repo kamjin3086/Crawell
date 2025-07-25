@@ -1,0 +1,21 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "jsx": "react-jsx",
+    "rootDir": ".",
+    "outDir": "build",
+    "composite": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+      "~/*": ["*"],
+      "@pagehelper/common/*": ["../../common/src/*"]
+    }
+  },
+  "include": [
+    "src",
+    "entrypoints/sidepanel",
+    "assets/**/*.json"
+  ]
+}

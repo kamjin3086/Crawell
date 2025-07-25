@@ -1,0 +1,320 @@
+general:
+  version: Version
+  privacyPolicy: Privacy Policy
+  termsOfService: Terms of Service
+  feedback: Feedback
+  contactEmail: Contact Email
+  language: Language
+  languageAuto: Follow browser
+  languageEnglish: English
+  languageChinese: Chinese
+settings:
+  cleanMode:
+    title: Clean Mode
+    desc: Configure page cleanup and content extraction options
+    enableTitle: Enable clean mode
+    enableDesc: Remove distractions and keep only main content
+    removeAds: Remove advertisements
+    removeAdsDesc: Remove ads from the page
+    removeComments: Remove comments
+    removeCommentsDesc: Remove comment sections from the page
+    removeNav: Remove navigation
+    removeNavDesc: Remove the top navigation bar
+    removeFooter: Remove footer
+    removeFooterDesc: Remove the bottom footer area
+    removeSocial: Remove social share
+    removeSocialDesc: Remove social media share buttons
+  data:
+    title: Data Management
+    desc: Clear local caches and settings
+    clearAll: Clear all data
+    confirm: Are you sure you want to clear all data?
+  about:
+    title: About & Support
+    desc: Extension info & feedback channels
+  imageFilter:
+    title: Image Filter
+    desc: Filter invisible or very small images (≤5×5 px) to reduce broken placeholders.
+    enableTitle: Filter hidden/tiny images
+
+common:
+  extracting: Extracting...
+  confirm: Confirm
+
+imageExtractor:
+  multiSelect:
+    addDimension: "+ Custom Dimension"
+    addSizeRange: "+ Custom Size Range"
+    placeholderExample: "e.g. 52x64"
+    minKB: "Min (KB)"
+    maxKB: "Max (KB)"
+    confirm: Confirm
+  downloadDialog:
+    title: "Download Settings ($1 images)"
+    methodLabel: Download Method
+    zipOption: Download ZIP
+    singleOption: Download Individually
+    packageNameLabel: ZIP Filename
+    packageHint: ".zip extension will be added automatically"
+    formatLabel: Format Conversion
+    compressLabel: Compression Quality
+    resizeLabel: Resize
+    widthLabel: Width
+    heightLabel: Height
+    keepRatioLabel: Keep aspect ratio
+    renameLabel: Rename
+    patternLabel: Filename pattern
+    patternHint: "Supported variables: {index} - number, {date} - date, {original} - original name"
+    filenamePatternLabel: Filename pattern
+    startNumberLabel: Start number
+    cancelButton: Cancel
+    confirmButton: Download
+    formatHelp: "Supported formats: JPG, PNG, WebP\nOther formats (GIF, SVG, etc.) remain unchanged"
+    compressHelp: "Supported formats: JPG, WebP\nPNG does not support quality compression\nOther formats remain unchanged"
+    resizeHelp: "Supported formats: JPG, PNG, WebP\nAnimated GIF and SVG images cannot be resized"
+  view:
+    extract: Extract
+    reExtract: Re-extract
+    extracting: Extracting
+    extractTooltip: Extract images
+    autoTooltip: Auto extract
+    accumulateTooltip: Accumulate mode
+    filterTooltip: Filter
+    sortTooltip: Toggle category order
+    guideTitle: Guide
+    guideStep1: "Click \"Extract\" to fetch images from current page"
+    guideStep2: "Enable \"Auto\" to auto-extract on page changes"
+    guideStep3: "Use filter to narrow images by size, type, etc."
+    guideStep4: "Click image to select/deselect, batch download supported"
+    toastSuccess: Downloaded image
+    toastError: Error while downloading image
+    success: Success
+    error: Error
+    downloadBtn: "Download($1)"
+    downloadTooltip: Download
+    settings: Settings
+    selectAll: Select
+    deselectAll: Clear
+    invertSelect: Invert
+    selectedPrefix: "Selected: "
+    totalSizePrefix: "Total: "
+    extractingImages: Extracting images...
+    emptyHint: "Click \"Extract\" above to start extracting"
+    emptyTitle: "Easily grab all images on the page"
+    emptySubtitle: "Click the button below to scan and bulk download images on the current page."
+    startExtract: "Start Extracting"
+    downloadImageTitle: Download image
+    patternPlaceholder: "e.g. image-{index}"
+  # Add any new view keys here
+  # For example:
+  # viewName:
+  #   title: View Title
+  #   desc: View Description
+  #   confirm: Confirm View
+  #   cancel: Cancel View
+  #   ...
+  #   ...
+  #   ...
+  category:
+    icon: Icon
+    thumbnail: Thumbnail
+    content: Content image
+    large: Large image
+  categoryDesc:
+    icon: Suitable for site icons, UI buttons, small symbols
+    thumbnail: For previews, avatars, product thumbnails
+    content: For article illustrations, product showcase images
+    large: For backgrounds, banners, high-resolution images
+
+  filterDialog:
+    title: Filter Images
+    reset: Reset
+    formatLabel: Image Format
+    sizeLabel: Image Size
+    fileSizeLabel: File Size
+    addCustomSize: "+ Custom Size Range"
+    addCustomFileSize: "+ Custom Size Range"
+    widthRangeLabel: Width Range (px)
+    heightRangeLabel: Height Range (px)
+    minPlaceholder: Min
+    maxPlaceholder: Max
+    applyRange: Apply
+    unitPlaceholder: Unit
+  error:
+    title: Extraction Failed
+    noTab: Failed to get current tab information
+    internalPage: The page is an internal browser/extension page and cannot be processed.
+    cannotExecute: Cannot execute extraction on this page. Please switch to a normal webpage.
+    generic: Extraction failed. Try on a normal content page.
+    unknown: Unknown error
+  info:
+    pageLoading: Page loading
+    waitPageLoad: Please wait until the page finishes loading, then try extracting.
+  extract:
+    success: Extracted
+    successDescription: "Successfully extracted $1 images"
+  # Duplicate view block removed
+  download:
+    success: Download completed
+    successDescription: "Downloaded $1 images"
+
+
+terms:
+  pageTitle: "Crawell – Terms of Service"
+  title: Terms of Service
+  updated: "Last updated: 2025-06-01"
+  intro: By installing or using this extension you agree to be bound by the following terms. Please read them carefully.
+  section1:
+    title: License & Scope
+    text: This extension is released under the MIT License. You may use it for personal or internal business purposes only. Reverse-engineering, redistribution or illegal use without prior written consent is prohibited.
+  section2:
+    title: User Responsibilities
+    text: You must comply with all applicable laws and regulations and not use the extension to store or distribute unlawful content or infringe third-party rights. You are solely responsible for any claims arising from your use.
+  section3:
+    title: Intellectual Property
+    text: All source code, icons and trademarks remain the property of the developer. No copying, modification or mirroring is allowed without permission.
+  section4:
+    title: Disclaimer
+    text: The extension is provided "as is" without warranties of any kind. We shall not be liable for any direct or indirect damages resulting from its use or inability to use.
+  section5:
+    title: Limitation of Liability
+    text: To the maximum extent permitted by law, we are not liable for any indirect, incidental, special or punitive damages. Our aggregate liability shall not exceed the amount you actually paid for the service, if any.
+  section6:
+    title: Changes & Termination
+    text:
+      prefix: We may update these terms at any time. Material changes will be announced through release notes or in-app notices. If you disagree with the changes, please stop using the extension and
+      suffix: ; continued use constitutes acceptance of the new terms.
+
+privacy:
+  pageTitle: "Crawell – Privacy Policy"
+  title: Privacy Policy
+  updated: "Last updated: 2025-06-01"
+  intro: We value your privacy and data security. This Policy explains what information Crawell ("we", "our") collects, how we use it, how it is stored/deleted, and what rights you have.
+  section1:
+    title: Information We Collect
+    text: |
+      We only collect data that is strictly necessary:
+        • Account data (optional): your e-mail, display name and auth tokens when you voluntarily register or log in.
+        • Usage data: aggregated feature counts and crash logs **without any personally identifiable information (PII)**, used solely to improve stability and UX.
+        • Page content (optional): when you actively click "Extract" or enable auto-extract, the extension parses the current page **locally in your browser**. No page content will be uploaded unless you explicitly share or sync it.
+  section2:
+    title: How We Use Data
+    text: |
+      We process data only for legitimate purposes:
+        1. To deliver core features (content extraction, translation, AI chat, etc.).
+        2. To secure and maintain the service, debug and fix issues.
+        3. To analyse usage and improve performance, UI and UX.
+        4. To send important notices you have opted-in for.
+      **We never sell, rent or disclose your personal info to third parties** without your explicit consent, unless required by law.
+  section3:
+    title: Storage & Security
+    text: |
+      • All settings are stored locally via `storage.local`
+
+glassPluginCard:
+  tools:
+    image: Image Extractor
+    markdown: Markdown
+  help: Help
+  settings: Settings
+
+markdownEditor:
+  extract: Extract
+  reExtract: Re-extract
+  extracting: Extracting...
+  autoExtract: Auto extract
+  search: Search
+  copy: Copy to clipboard
+  searchPlaceholder: "Search document..."
+  emptyTitle: No content extracted yet
+  emptySubtitle: Click "Extract" to scan the current page.
+  errNoTab: Failed to get current tab information
+  errInternalPage: The page is an internal browser/extension page, cannot extract.
+  errNoConnect: Cannot communicate with page, it may not be fully loaded or unsupported.
+  errExtract: Extraction failed
+  errZip: Failed to create ZIP file
+  errOperation: "Operation failed: $msg"
+  errCopy: Copy failed
+  unknown: Unknown error
+  cleanModeOn: Clean mode ON
+  cleanModeOff: Clean mode OFF
+  imagePlaceholder: Image
+
+editorFooter:
+  edit: Edit
+  preview: Preview
+  toggleTooltip: Toggle edit/preview mode
+  wordCountTooltip: Word count
+  imageCountTooltip: Image count
+  download: Download ZIP
+  downloadTooltip: Download Markdown file and images as ZIP
+
+# ------------------------------------
+# Help section (matching zh_CN)
+help:
+  pageTitle: "Crawell – Help"
+  quickStartTitle: Quick Start
+  quick:
+    image:
+      title: Collect webpage images
+      s1: Open target page
+      s2: Click Extract Images
+      s3: Select desired images
+      s4: Configure and batch download
+    markdown:
+      title: Convert page to Markdown
+      s1: Open article page
+      s2: Click Convert Content
+      s3: Preview and edit
+      s4: Download or copy document
+  coreTitle: Core Features
+  downloadTitle: Download Options
+  feedbackTitle: Feedback & Contact
+  feedbackDesc: "If you encounter issues or have suggestions, reach us through:"
+  title: Crawell User Guide
+  tagline: All-in-one web asset collection & knowledge organization
+  faqTitle: FAQ
+  faq:
+    q1:
+      q: Why does the Extract button do nothing?
+      a: Some sites use lazy-loading or cross-origin images. Scroll down to load images before extracting, or enable "Auto Extract" in settings.
+    q2:
+      q: ZIP download failed / file is corrupted?
+      a: Make sure no extension blocks downloads, or switch to individual download mode. Large batches may hit browser memory limits.
+    q3:
+      q: Markdown image links are inaccessible?
+      a: For offline reading, enable "Download ZIP" so images are saved locally and paths converted to relative links.
+  coreItems:
+    img: "Image collecting: automatically extract all images and classify them as icons, thumbnails, content or HD images; supports format filter, batch download & conversion."
+    markdown: "Markdown conversion: convert article main content to clean Markdown; perfect for Notion, Obsidian etc."
+    autoStack: "Auto extract / Stack mode: auto grab images on new pages; stack mode keeps collecting across pages."
+  downloadItems:
+    method: "Download method: ZIP package or individual images."
+    format: "Format conversion: JPG / PNG / WebP inter-conversion supported."
+    quality: "Compression quality: customizable JPG / WebP quality."
+    markdown: "Markdown download: package images and replace relative paths."
+    naming: "Filename pattern: supports <code>{index}</code>, <code>{date}</code>, <code>{name}</code> placeholders."
+  footer:
+    slogan: Crawell – Make web extraction easier
+  contact:
+    issue: Submit Issue
+    discord: Join Discord
+    form: Feedback Form
+
+# ------------------------------------
+# Welcome section (matching zh_CN)
+welcome:
+  pageTitle: "Crawell – Welcome"
+  title: Welcome to Crawell!
+  subtitle: Crawell helps you extract webpage images and convert Markdown in one click, with powerful batch download and format conversion.
+  startBtn: Get Started
+  guideTitle: Quick Guide
+  closeBtn: Got it, close this page
+  steps:
+    s1: Open the webpage whose assets you want to collect.
+    s2: Click the Crawell icon in the browser toolbar.
+    s3: In the side panel choose "Image Extractor" or "Markdown".
+    s4: Select assets and batch download or copy them.
+
+
+  

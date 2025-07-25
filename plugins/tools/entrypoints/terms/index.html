@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>Crawell - 使用条款</title>
+  <!-- 本地字体已在打包文件中，无需加载 Google Fonts -->
+  <style>
+    body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background-color: var(--background); overflow: auto; position: relative; }
+    :root { --background:#f0f2f5; --text-primary:#1a202c; --text-secondary:#4a5568; }
+    .dark { --background:#141824; --text-primary:#ffffff; --text-secondary:#a0aec0; background-color: var(--background); }
+    .bg-container { display:none; }
+    .bg-blur-spot { position: absolute; width: 400px; height: 400px; border-radius: 50%; filter: blur(120px); opacity: 0.5; }
+    .spot-1 { background: #818cf8; top: -150px; left: -200px; }
+    .spot-2 { background: #f472b6; bottom: -200px; right: -150px; }
+    .dark .spot-1 { background: #3b82f6; opacity: 0.3; }
+    .dark .spot-2 { background: #7c3aed; opacity: 0.3; }
+    .content-card { color: #1a202c; border-radius: 20px; background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(25px); -webkit-backdrop-filter: blur(25px); border: 1px solid rgba(255, 255, 255, 0.6); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1); }
+    .dark .content-card { color: #ffffff; background: rgba(29, 39, 58, 0.75); border: 1px solid rgba(255, 255, 255, 0.15); }
+    h1, h2 { color: var(--text-primary); }
+    p { color: var(--text-secondary); }
+  </style>
+  <script type="module" src="./theme.ts"></script>
+</head>
+<body class="p-4 sm:p-8">
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+</body>
+</html> 
