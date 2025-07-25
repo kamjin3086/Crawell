@@ -2,6 +2,7 @@
   "name": "crawell-tools",
   "version": "0.9.2",
   "description": "Crawell browser extension – web image extractor & Markdown converter side panel",
+  "license": "MIT",
   "scripts": {
     "dev": "wxt",
     "build": "wxt build"

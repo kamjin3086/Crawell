@@ -4,10 +4,11 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "zip:tools": "pnpm --filter crawell-tools exec wxt zip",
     "zip:tools:firefox": "pnpm --filter crawell-tools exec wxt zip -b firefox",
-    "package:tools:source": "node docs/package_firefox_source.js",
+    "package:tools:source": "node scripts/package_firefox_source.js",
     "compile": "tsc --noEmit",
     "dev:tools": "pnpm --filter crawell-tools dev",
     "dev:tools:firefox": "pnpm --filter crawell-tools dev -b firefox",

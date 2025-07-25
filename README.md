@@ -60,3 +60,11 @@ For more details, see [`PRIVACY.md`](PRIVACY.md).
 | Discord Community | <https://discord.gg/stDBJE8tva> |
 | In-app Feedback | **Settings → Feedback** inside the extension |
 
+---
+
+## 📜 Disclaimer
+
+Crawell may extract content that is protected by copyright. The tool is provided **solely for personal use within the permission scope of the target website**. The author and contributors assume no responsibility for any infringement caused by improper use.
+
+---
+
