@@ -2,6 +2,20 @@
 
 # Crawell – One-Click Web Image & Content Extractor
 
+<p align="center">
+  <img alt="Build" src="https://img.shields.io/badge/build-manual-blue" />
+  <a href="https://github.com/kamjin3086/Crawell/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/kamjin3086/Crawell" />
+  </a>
+  <img alt="Version" src="https://img.shields.io/github/package-json/v/kamjin3086/Crawell?filename=plugins%2Ftools%2Fpackage.json&color=blueviolet" />
+  <a href="https://chromewebstore.google.com/detail/crawell/cmfcognoilmabnclomeehljmknallaaa">
+    <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/cmfcognoilmabnclomeehljmknallaaa?label=chrome%20web%20store&logo=googlechrome&color=red" />
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/crawell/">
+    <img alt="Firefox Add-on" src="https://img.shields.io/amo/v/crawell?label=firefox%20addon&logo=firefoxbrowser&color=ff7139" />
+  </a>
+</p>
+
 > **Crawell** lets you instantly pull every image and article text from any webpage, batch-download them, convert to Markdown, and pack everything into a ZIP file. All processing is done locally in your browser—nothing is uploaded, your privacy stays private.
 
 ---

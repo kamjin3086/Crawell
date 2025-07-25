@@ -2,6 +2,20 @@
 
 # Crawell – 网页图片 / 正文一键提取工具
 
+<p align="center">
+  <img alt="构建状态" src="https://img.shields.io/badge/build-manual-blue" />
+  <a href="https://github.com/kamjin3086/Crawell/blob/main/LICENSE">
+    <img alt="许可证" src="https://img.shields.io/github/license/kamjin3086/Crawell" />
+  </a>
+  <img alt="版本" src="https://img.shields.io/github/package-json/v/kamjin3086/Crawell?filename=plugins%2Ftools%2Fpackage.json&color=blueviolet" />
+  <a href="https://chromewebstore.google.com/detail/crawell/cmfcognoilmabnclomeehljmknallaaa">
+    <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/cmfcognoilmabnclomeehljmknallaaa?label=chrome%20web%20store&logo=googlechrome&color=red" />
+  </a>
+  <a href="https://addons.mozilla.org/firefox/addon/crawell/">
+    <img alt="Firefox Add-on" src="https://img.shields.io/amo/v/crawell?label=firefox%20addon&logo=firefoxbrowser&color=ff7139" />
+  </a>
+</p>
+
 > **Crawell** 帮你把网页中的图片与正文快速提取、批量下载，并支持 Markdown 转换、ZIP 打包等实用功能。所有处理均在本地浏览器完成，数据绝不上传服务器，隐私安全。
 
 ---
