@@ -1,6 +1,6 @@
 import type { DownloadConfig } from '../components/DownloadDialog';
 
-export interface ProcessedImageResult {
+interface ProcessedImageResult {
   blob: Blob;
   filename: string;
   format: string;
@@ -44,7 +44,7 @@ function isSupportedOutputFormat(format: string): boolean {
 /**
  * 处理单张图片
  */
-export async function processImage(
+async function processImage(
   imageUrl: string,
   originalFormat: string,
   options: ProcessOptions

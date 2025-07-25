@@ -5,7 +5,7 @@ import { cn } from '@pagehelper/common/src/lib/utils'
 import ImagePreview, { CachedImage } from './ImagePreview'
 import { Image as ImageIcon } from 'lucide-react'
 
-export interface MarkdownRendererProps {
+interface MarkdownRendererProps {
   markdown: string
   searchQuery: string
   cachedImages: Map<string, CachedImage>

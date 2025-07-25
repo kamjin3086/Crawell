@@ -1,6 +1,6 @@
 import { createI18n } from '@wxt-dev/i18n';
 // Fallback: createI18n will use messages loaded by @wxt-dev/i18n module at runtime.
-export const LANGUAGE_STORAGE_KEY = 'ph-tools-locale';
+const LANGUAGE_STORAGE_KEY = 'ph-tools-locale';
 
 export const i18n: any = createI18n();
 
@@ -20,7 +20,7 @@ function applyLocale(locale: string | null) {
 i18n.setLocale = (locale: string) => applyLocale(locale);
 
 // 同时导出独立函数，便于未来直接使用
-export const setLocale = (locale: string) => applyLocale(locale);
+const setLocale = (locale: string) => applyLocale(locale);
 
 // 初始化时读取本地语言设置
 const storedLocale = typeof window !== 'undefined' ? localStorage.getItem(LANGUAGE_STORAGE_KEY) : null;

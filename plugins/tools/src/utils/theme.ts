@@ -24,7 +24,7 @@ export function initTheme() {
 /**
  * React Hook：在组件挂载时自动调用 initTheme。
  */
-export function useSystemTheme() {
+function useSystemTheme() {
   useEffect(() => {
     initTheme()
   }, [])
