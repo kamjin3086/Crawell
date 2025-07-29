@@ -14,6 +14,9 @@ export default defineConfig({
     version: pkg.version,
     permissions: ['storage', 'tabs', 'scripting'],
     host_permissions: ['http://*/*', 'https://*/*'],
+    action: {
+      default_popup: 'popup.html'
+    },
     web_accessible_resources: [
       {
         // Resources must reference the actual file paths contained in the packaged

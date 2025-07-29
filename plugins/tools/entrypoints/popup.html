@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crawell</title>
+    <meta name="manifest.type" content="browser_action" />
+    <link rel="stylesheet" href="../assets/tailwind.css" />
+    <script type="module" src="sidepanel/theme.ts"></script>
+    <style>
+      /* 让界面撑满整个弹窗，同时留出底部空间避免被系统栏/下载栏遮挡 */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      /* 允许垂直滚动，防止内容溢出被遮挡 */
+      body {
+        overflow-y: auto;
+        /* 留出安全区域：iOS/Android notch + 额外 64px 供下载栏使用 */
+        padding-bottom: max(env(safe-area-inset-bottom), 96px);
+        box-sizing: border-box;
+      }
+
+      #root {
+        min-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="sidepanel/main.tsx"></script>
+  </body>
+</html>
