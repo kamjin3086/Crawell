@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crawell</title>
+    <meta name="manifest.type" content="browser_action" />
+    <link rel="stylesheet" href="../assets/tailwind.css" />
+    <!-- 直接 iframe 嵌入 sidepanel 页面，故无需再单独初始化主题 -->
+  </head>
+  <body style="margin:0;padding:0;width:100%;height:100%;">
+    <style>
+      html,body,iframe{margin:0;padding:0;width:100%;height:100%;border:none;}
+    </style>
+    <!-- 直接加载打包后的 sidepanel.html → dev 模式同样可被 WXT 代理到原始文件 -->
+    <iframe src="sidepanel.html" style="width:100%;height:100%;border:none;" allow="clipboard-read;clipboard-write"></iframe>
+  </body>
+</html>
