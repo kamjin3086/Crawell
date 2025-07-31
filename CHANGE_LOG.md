@@ -1,5 +1,9 @@
 English | [中文](CHANGE_LOG_ZH.md)
 
+### v0.9.3
+- Support for using the extension on mobile browsers based on the Chromium engine, as well as possible support for tablet browsers.
+- Other minor adjustments, performance, and UI improvements.
+
 ### v0.9.2
 
 ## Fixed
