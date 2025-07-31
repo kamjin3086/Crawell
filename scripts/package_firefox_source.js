@@ -10,7 +10,8 @@
 //   - node_modules
 //   - docs (including this script)
 //   - public/provider-icons (large marketing assets)
-//   - root README.md & other pre-built archives / logs / maps
+//   - all Markdown files in repository root (*.md)
+//   - pre-built archives / logs / maps
 //
 // USAGE:
 //   node docs/package_firefox_source.js
@@ -69,10 +70,11 @@ archive.glob('**/*', {
     '**/node_modules/**',
     '**/.output/**',
     '**/docs/**',
-    'README.md',
+    '*.md',
     '**/*.zip',
     '**/*.log',
     '**/*.map',
+    '.github',
 
     'plugins/tools/README.md',
     "crawell-tools-source/**",
