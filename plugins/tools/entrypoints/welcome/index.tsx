@@ -82,6 +82,16 @@ function WelcomePage() {
         {t('welcome.startBtn')}
       </button>
 
+      {/* Changelog Link */}
+      <a
+        href="https://github.com/kamjin3086/Crawell/blob/main/CHANGE_LOG.md"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-xs text-slate-500 hover:text-blue-500 underline underline-offset-4"
+      >
+        Changelog
+      </a>
+
       <AnimatePresence>
       {showGuide && (
         <motion.div

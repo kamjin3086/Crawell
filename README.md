@@ -1,4 +1,4 @@
-[中文](README_ZH.md) | English
+English | [中文](README_ZH.md) 
 
 # Crawell – One-Click Web Image & Content Extractor
 
